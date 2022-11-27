@@ -15,11 +15,11 @@ export default function Detail() {
   }, [id]);
 
   return data ? (
-    <div className="container ">
+    <div className="container">
       <div className="col image" align="center">
-        <img src={data.image_uris.png} width="300px" />
+        <img src={data.image_uris.png} width="250px" />
       </div>
-      <div className="col data">
+      <div className="col mb-5 data">
         <p align="center">Card Infomation</p>
         <p>Card Name : {data.name}</p>
         <p>Converted Mana Cost : {data.cmc}</p>

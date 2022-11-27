@@ -12,7 +12,6 @@ export default function Card() {
     fetchData();
   }, []);
 
-  console.log(data);
   let card;
   if (data) {
     card = data.data.map((c) => {

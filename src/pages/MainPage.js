@@ -4,7 +4,7 @@ import download from "../assets/bro-logo.png";
 export default function MainPage() {
   return (
     <div className="Main">
-      <div className="mt-5 container text-center">
+      <div className="my-5 container text-center">
         <div className="row">
           <div className="col">
             <div class="card">
@@ -17,7 +17,7 @@ export default function MainPage() {
               </div>
             </div>
           </div>
-          <div className="col decs my-5 ">
+          <div className="col decs mb-5 mx-3 ">
             <h1>RETAKE THE FUTURE</h1>
             <p>
               Journey back and save Dominaria. A brutal clash of mechanical
@@ -36,8 +36,8 @@ export default function MainPage() {
               Schematic artifact. Wield these artifacts alongside colossal war
               machines and forge your own future!
             </p>
-            <h2>DECLARE YOUR ALLIAGEANCE NOW</h2>
-            <a class="btn btn-danger mt-5" href="/cards" role="button">
+            <h2>DECLARE YOUR ALLIAGEANCE</h2>
+            <a class="btn btn-danger mt-2 mb-3" href="/cards" role="button">
               EXPLORE DOMINARIA
             </a>
           </div>
